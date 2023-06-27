@@ -20,7 +20,7 @@ const Hero = (props) => (
         perfect design. I also make website more & more interactive with web
         animations.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      <Button onClick={() => (window.location = "/")}>
         Learn More
       </Button>
     </LeftSection>
