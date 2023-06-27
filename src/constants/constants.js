@@ -31,16 +31,16 @@ export const projects = [
     description: "A new cooking recipe web application is being developed using Next.js. The application will be designed to provide users with access to a vast collection of exciting and delicious recipes.",
     image: '/images/4.png',
     tags: ['React', 'Next', 'Contenful'],
-    source: 'https://github.com/alemughal/CookingCorner-NextJS',
-    visit: 'https://cooking-corner-next-js.vercel.app/',
+    source: 'https://cooking-corner-next-js.vercel.app/',
+    visit: 'https://github.com/alemughal/CookingCorner-NextJS',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey', },
+  { year: 2022, text: 'Making Projects for Practice', },
+  { year: 2023, text: 'Making Projects for Practice', },
+  { year: 2023, text: 'Shared my projects with the world', },
+  { year: 2023, text: 'Building Portfolio', },
 ];
