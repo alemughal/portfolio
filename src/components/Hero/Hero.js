@@ -12,7 +12,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome TO <br />
+        Welcome To <br />
         My Personal Portfolio
       </SectionTitle>
       <SectionText>

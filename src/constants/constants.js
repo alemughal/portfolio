@@ -33,7 +33,7 @@ export const projects = [
     title: "Cooking Corner",
     description:
       "This website is generated in next js.This website is make to provide Recipes of Asian Cusine",
-    image: "/images/3.png",
+    image: "/images/cooking.png",
     tags: ["React", "Next", "Contentful"],
     source: "https://cooking-corner-next-js.vercel.app/",
     visit: "https://github.com/alemughal/CookingCorner-NextJS",
