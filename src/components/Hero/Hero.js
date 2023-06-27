@@ -12,6 +12,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
+        Hi I'm Ali, <br/ >
         Welcome To <br />
         My Personal Portfolio
       </SectionTitle>
