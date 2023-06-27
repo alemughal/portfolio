@@ -1,5 +1,6 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 export const Container = styled.div`
   display: grid;
@@ -17,6 +18,11 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -46,7 +52,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
