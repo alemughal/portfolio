@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Cooking Corner',
     description: "A new cooking recipe web application is being developed using Next.js. The application will be designed to provide users with access to a vast collection of exciting and delicious recipes.",
-    image: '/images/4.png',
+    image: '/images/4.jpg',
     tags: ['React', 'Next', 'Contenful'],
     source: 'https://cooking-corner-next-js.vercel.app/',
     visit: 'https://github.com/alemughal/CookingCorner-NextJS',
