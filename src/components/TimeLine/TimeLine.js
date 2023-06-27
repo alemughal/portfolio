@@ -63,10 +63,10 @@ const Timeline = () => {
     <Section>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a Full Stack Developer with a passion for learning and creating new
+        I am a Frontend Developer with a passion for learning and creating new
         things. I am currently working on a few projects to help me learn new
         technologies and improve my skills. I am also looking for a job as a
-        Full Stack Developer.
+        Frontend Developer.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
