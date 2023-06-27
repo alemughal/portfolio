@@ -30,13 +30,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Startup Landing",
+    title: "Cooking Corner",
     description:
-      "A new landing page website is being developed using Next.js. This landing page will feature a modern-looking design with a responsive layout, optimized for desktop and mobile devices, and provide users with a seamless browsing experience.",
-    image: "/images/3.png",
-    tags: ["React", "Next"],
-    source: "https://alemughal.github.io/NextJS-Landing-Page/",
-    visit: "https://github.com/alemughal/NextJS-Landing-Page",
+      "This website is generated in next js.This website is make to provide Recipes of Asian Cusine",
+    tags: ["React", "Next", "Contentful"],
+    source: "https://cooking-corner-next-js.vercel.app/",
+    visit: "https://github.com/alemughal/CookingCorner-NextJS",
     id: 2,
   },
 ];
