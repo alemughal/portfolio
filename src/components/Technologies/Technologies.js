@@ -36,10 +36,10 @@ const Technologies = () =>  (
       <ListItem>
         <DiZend size='3rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud Computing</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma and Adobe XD<br />
+            Docker and Kubernetes<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
