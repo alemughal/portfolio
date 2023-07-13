@@ -14,10 +14,6 @@ import {
   SocialIcons,
 } from "./HeaderStyles";
 
-<Head>
-  <title>Portfolio</title>
-  <link rel="icon" href="/favicon.ico" />
-</Head>;
 const Header = () => (
   <>
     <Head>
@@ -35,7 +31,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem" /> <Span>Ali</Span>
         </Link>
       </Div1>
       <Div2>

@@ -22,7 +22,7 @@ const Hero = (props) => (
         animations.
       </SectionText>
       <Button onClick={() => (window.location = "/")}>
-        Learn More
+        Contact Me
       </Button>
     </LeftSection>
   </Section>
