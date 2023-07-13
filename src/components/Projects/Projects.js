@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import {
   BlogCard,
@@ -20,6 +21,8 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+const AnimatedBlogCard = motion(BlogCard);
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -27,7 +30,11 @@ const Projects = () => (
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
+          <AnimatedBlogCard
+            key={id}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
             <Img src={image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
@@ -37,7 +44,7 @@ const Projects = () => (
             <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
-                {tags.map((tag,i) => (
+                {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
                 ))}
               </TagList>
@@ -45,9 +52,8 @@ const Projects = () => (
             <UtilityList>
               <ExternalLinks href={visit} target="_blank">Code</ExternalLinks>
               <ExternalLinks href={source} target="_blank">Source</ExternalLinks>
-
             </UtilityList>
-          </BlogCard>
+          </AnimatedBlogCard>
         )
       )}
     </GridContainer>

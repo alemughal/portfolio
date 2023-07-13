@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import {
   Section,
@@ -14,15 +15,21 @@ const data = [
   { number: 100, text: "Followers" },
 ];
 
+const AnimatedBox = motion(Box);
+
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
-        <Box key={index}>
+        <AnimatedBox
+          key={index}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <BoxNum>{card.number}+</BoxNum>
           <BoxText>{card.text}</BoxText>
-        </Box>
+        </AnimatedBox>
       ))}
     </Boxes>
   </Section>
